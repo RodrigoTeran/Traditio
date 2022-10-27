@@ -74,6 +74,47 @@ nav button:hover {
     background-color: var(--primary-color-500);
 }
 
+.cajaLogIn {
+    font-size: 25px;
+    text-align: center;
+    background-color: rgb(236, 232, 232);
+    margin-right: 200px;
+    padding: 20px;
+    width: 250px;
+    height: 300px;
+    float:right;
+}
+
+section div {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    float: left;
+}
+
+section button {
+    border-radius: 1000px;
+    /* MAX */
+    background-color: var(--primary-color-600);
+    color: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 7.5px 15px;
+    cursor: pointer;
+    transition: background-color ease-out 150ms;
+    border: none;
+    margin: 20px 65px 20px 65px;
+    font-size: 17px;
+}
+
+section button:hover {
+    background-color: var(--primary-color-500);
+}
+
 .user {
     display: flex;
     gap: 15px;
