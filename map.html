@@ -7,8 +7,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="map.css">
-    <script type="text/javascript"
-        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCQ9ANgPZUiCmR3OzkZhQFwtEhDBf9Pwvc&libraries=places"></script>
     <title>Traditio - Mapa</title>
 </head>
 
@@ -105,7 +103,13 @@
             </div>
         </div>
     </section>
+    <script>
+        const card = document.querySelector(".map_card");
 
+        card.addEventListener("click", () => {
+            window.open('./order.html')
+        })
+    </script>
 </body>
 
 </html>

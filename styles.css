@@ -108,6 +108,92 @@ nav button:hover {
     white-space: nowrap;
 }
 
+#ret {
+    color: var(--primary-color-600);
+    font-size: .8rem;
+    padding-left: 25px;
+    padding-bottom: 7px;
+}
+
+.price {
+    color: var(--primary-color-600);
+    font-size: 1rem;
+    padding-left: 25px;
+    padding-bottom: 7px;
+}
+
+#product {
+    font-weight: bold;
+    color: var(--primary-color-600);
+    font-size: 2rem;
+    padding-left: 25px;
+}
+
+.col {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    vertical-align: middle;
+}
+
+.col img {
+    width: 70%;
+    height: auto;
+    object-fit: contain;
+    padding: auto;
+}
+
+.info {
+    color:gray;
+    font-size: .85rem;
+    padding-bottom: 15px;
+}
+
+#divOne{
+    width: 100%;
+    height: 30vh;
+
+    display: flex;
+    align-items: end;
+    justify-content: left;
+
+    background: linear-gradient(to bottom, rgb(0 0 0 / .5),rgb(0 0 0 / .5)),url("assets/ChilaquilesTec.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+#textOne{
+    width: 175px;
+    color: #ffff;
+    text-align: center;
+}
+
+#firstDiv {
+    padding-left: 10px;
+}
+
+#orderTxt {
+    text-align: right;
+    color: var(--primary-color-600);
+    font-size: 1rem;
+    padding-right: 25px;
+    padding-bottom: 7px;
+}
+
+#order {
+    background-color: var(--primary-color-600);
+    border: none;
+    float: right;
+    text-align: center;
+    color: white;
+    padding: 15px 102px;
+    margin-right: 25px;
+    font-size: 18px;
+}
+
+#order:hover {
+    background-color:#6269E9;
+  }
+
 @media screen and (max-width: 550px) {
     .user_name,
     .user img {
